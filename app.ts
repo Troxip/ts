@@ -1,6 +1,6 @@
 class Department {
   name: string;
-  employees: string[] = [];
+  private employees: string[] = [];
 
   constructor(n: string) {
     this.name = n;
@@ -30,4 +30,4 @@ accounting.printEmployeeInfo();
 
 // const accountingCopy = { name: "s", describe: accounting.describe };
 
-// accountingCopy.describe();
+// accountingCopy.describe();g
